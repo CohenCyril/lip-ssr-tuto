@@ -18,7 +18,7 @@ BEGIN {
             print "(*"
             print "Restart."
         } else print $0
-    } else if ($0 ~ /^(Qed|Abort|Admitted).[:space:]*$/) {
+    } else if ($0 ~ /^(Qed|Abort|Defined|Admitted).[:space:]*$/) {
         if (proofRestarted) print "*)"
         proofRestarted = 0
         print $0

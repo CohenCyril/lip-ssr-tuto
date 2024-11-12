@@ -474,7 +474,7 @@ elim: n k => // n IHn [|k] kn.
   exact: P0.
 apply: Plt => m mk; apply/IHn.
 by rewrite (leq_trans mk).
-
+Qed.
 (**
 
 

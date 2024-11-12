@@ -1,6 +1,11 @@
 theories/test.v
+
 theories/lesson1.v
+theories/lesson2.v
+theories/lesson3.v
+
 exercises/exercise1_todo.v
+exercises/exercise2_todo.v
 
 
 -R theories LipSsrTuto
